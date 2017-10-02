@@ -1,0 +1,3 @@
+G:\VB Projects\IDM BANK\IDM_Bank\IDM_Bank\obj\Debug\IDM_Bank.exe
+G:\VB Projects\IDM BANK\IDM_Bank\IDM_Bank\obj\Debug\IDM_Bank.xml
+G:\VB Projects\IDM BANK\IDM_Bank\IDM_Bank\obj\Debug\IDM_Bank.pdb

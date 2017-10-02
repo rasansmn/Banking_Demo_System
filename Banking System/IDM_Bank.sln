@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IDM_Bank", "IDM_Bank\IDM_Bank.vbproj", "{B0D925E2-CFF8-43E0-A736-27373D644099}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0D925E2-CFF8-43E0-A736-27373D644099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D925E2-CFF8-43E0-A736-27373D644099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D925E2-CFF8-43E0-A736-27373D644099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D925E2-CFF8-43E0-A736-27373D644099}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

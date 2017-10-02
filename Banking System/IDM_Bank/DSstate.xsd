@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSstate" targetNamespace="http://tempuri.org/DSstate.xsd" xmlns:mstns="http://tempuri.org/DSstate.xsd" xmlns="http://tempuri.org/DSstate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSstate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSstate" msprop:Generator_DataSetName="DSstate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblTrans" msprop:Generator_UserTableName="tblTrans" msprop:Generator_RowDeletedName="tblTransRowDeleted" msprop:Generator_TableClassName="tblTransDataTable" msprop:Generator_RowChangedName="tblTransRowChanged" msprop:Generator_RowClassName="tblTransRow" msprop:Generator_RowChangingName="tblTransRowChanging" msprop:Generator_RowEvArgName="tblTransRowChangeEvent" msprop:Generator_RowEvHandlerName="tblTransRowChangeEventHandler" msprop:Generator_TablePropName="tblTrans" msprop:Generator_TableVarName="tabletblTrans" msprop:Generator_RowDeletingName="tblTransRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="trans_id" msprop:Generator_UserColumnName="trans_id" msprop:Generator_ColumnPropNameInRow="trans_id" msprop:Generator_ColumnVarNameInTable="columntrans_id" msprop:Generator_ColumnPropNameInTable="trans_idColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="trans_date" msprop:Generator_UserColumnName="trans_date" msprop:Generator_ColumnPropNameInRow="trans_date" msprop:Generator_ColumnVarNameInTable="columntrans_date" msprop:Generator_ColumnPropNameInTable="trans_dateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="trans_amount" msprop:Generator_UserColumnName="trans_amount" msprop:Generator_ColumnPropNameInRow="trans_amount" msprop:Generator_ColumnVarNameInTable="columntrans_amount" msprop:Generator_ColumnPropNameInTable="trans_amountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="trans_type" msprop:Generator_UserColumnName="trans_type" msprop:Generator_ColumnPropNameInRow="trans_type" msprop:Generator_ColumnVarNameInTable="columntrans_type" msprop:Generator_ColumnPropNameInTable="trans_typeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="balance" msprop:Generator_UserColumnName="balance" msprop:Generator_ColumnPropNameInRow="balance" msprop:Generator_ColumnVarNameInTable="columnbalance" msprop:Generator_ColumnPropNameInTable="balanceColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblAcc" msprop:Generator_UserTableName="tblAcc" msprop:Generator_RowDeletedName="tblAccRowDeleted" msprop:Generator_TableClassName="tblAccDataTable" msprop:Generator_RowChangedName="tblAccRowChanged" msprop:Generator_RowClassName="tblAccRow" msprop:Generator_RowChangingName="tblAccRowChanging" msprop:Generator_RowEvArgName="tblAccRowChangeEvent" msprop:Generator_RowEvHandlerName="tblAccRowChangeEventHandler" msprop:Generator_TablePropName="tblAcc" msprop:Generator_TableVarName="tabletblAcc" msprop:Generator_RowDeletingName="tblAccRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="acc_num" msprop:Generator_UserColumnName="acc_num" msprop:Generator_ColumnPropNameInRow="acc_num" msprop:Generator_ColumnVarNameInTable="columnacc_num" msprop:Generator_ColumnPropNameInTable="acc_numColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="acc_balance" msprop:Generator_UserColumnName="acc_balance" msprop:Generator_ColumnPropNameInRow="acc_balance" msprop:Generator_ColumnVarNameInTable="columnacc_balance" msprop:Generator_ColumnPropNameInTable="acc_balanceColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
